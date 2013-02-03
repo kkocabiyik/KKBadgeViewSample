@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBAEA3BE16BDE75500F0279B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAEA3BD16BDE75500F0279B /* UIKit.framework */; };
+		FBAEA3C016BDE75500F0279B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAEA3BF16BDE75500F0279B /* Foundation.framework */; };
+		FBAEA3C216BDE75500F0279B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAEA3C116BDE75500F0279B /* CoreGraphics.framework */; };
+		FBAEA3C816BDE75500F0279B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBAEA3C616BDE75500F0279B /* InfoPlist.strings */; };
+		FBAEA3CA16BDE75500F0279B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAEA3C916BDE75500F0279B /* main.m */; };
+		FBAEA3CE16BDE75500F0279B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAEA3CD16BDE75500F0279B /* AppDelegate.m */; };
+		FBAEA3D016BDE75500F0279B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAEA3CF16BDE75500F0279B /* Default.png */; };
+		FBAEA3D216BDE75500F0279B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAEA3D116BDE75500F0279B /* Default@2x.png */; };
+		FBAEA3D416BDE75500F0279B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAEA3D316BDE75500F0279B /* Default-568h@2x.png */; };
+		FBAEA3D716BDE75500F0279B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAEA3D616BDE75500F0279B /* ViewController.m */; };
+		FBAEA3DA16BDE75500F0279B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAEA3D816BDE75500F0279B /* ViewController.xib */; };
+		FBAEA3E116BDE76500F0279B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAEA3E016BDE76500F0279B /* QuartzCore.framework */; };
+		FBAEA3E416BDE77400F0279B /* KKBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAEA3E316BDE77400F0279B /* KKBadgeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBAEA3BA16BDE75500F0279B /* KKBadgeViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBadgeViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAEA3BD16BDE75500F0279B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBAEA3BF16BDE75500F0279B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBAEA3C116BDE75500F0279B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBAEA3C516BDE75500F0279B /* KKBadgeViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKBadgeViewSample-Info.plist"; sourceTree = "<group>"; };
+		FBAEA3C716BDE75500F0279B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBAEA3C916BDE75500F0279B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBAEA3CB16BDE75500F0279B /* KKBadgeViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKBadgeViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		FBAEA3CC16BDE75500F0279B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBAEA3CD16BDE75500F0279B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBAEA3CF16BDE75500F0279B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBAEA3D116BDE75500F0279B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBAEA3D316BDE75500F0279B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBAEA3D516BDE75500F0279B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBAEA3D616BDE75500F0279B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBAEA3D916BDE75500F0279B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FBAEA3E016BDE76500F0279B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FBAEA3E216BDE77400F0279B /* KKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBadgeView.h; sourceTree = "<group>"; };
+		FBAEA3E316BDE77400F0279B /* KKBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBadgeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBAEA3B716BDE75500F0279B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAEA3E116BDE76500F0279B /* QuartzCore.framework in Frameworks */,
+				FBAEA3BE16BDE75500F0279B /* UIKit.framework in Frameworks */,
+				FBAEA3C016BDE75500F0279B /* Foundation.framework in Frameworks */,
+				FBAEA3C216BDE75500F0279B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBAEA3B116BDE75500F0279B = {
+			isa = PBXGroup;
+			children = (
+				FBAEA3E016BDE76500F0279B /* QuartzCore.framework */,
+				FBAEA3C316BDE75500F0279B /* KKBadgeViewSample */,
+				FBAEA3BC16BDE75500F0279B /* Frameworks */,
+				FBAEA3BB16BDE75500F0279B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBAEA3BB16BDE75500F0279B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEA3BA16BDE75500F0279B /* KKBadgeViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBAEA3BC16BDE75500F0279B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEA3BD16BDE75500F0279B /* UIKit.framework */,
+				FBAEA3BF16BDE75500F0279B /* Foundation.framework */,
+				FBAEA3C116BDE75500F0279B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBAEA3C316BDE75500F0279B /* KKBadgeViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEA3E216BDE77400F0279B /* KKBadgeView.h */,
+				FBAEA3E316BDE77400F0279B /* KKBadgeView.m */,
+				FBAEA3CC16BDE75500F0279B /* AppDelegate.h */,
+				FBAEA3CD16BDE75500F0279B /* AppDelegate.m */,
+				FBAEA3D516BDE75500F0279B /* ViewController.h */,
+				FBAEA3D616BDE75500F0279B /* ViewController.m */,
+				FBAEA3D816BDE75500F0279B /* ViewController.xib */,
+				FBAEA3C416BDE75500F0279B /* Supporting Files */,
+			);
+			path = KKBadgeViewSample;
+			sourceTree = "<group>";
+		};
+		FBAEA3C416BDE75500F0279B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEA3C516BDE75500F0279B /* KKBadgeViewSample-Info.plist */,
+				FBAEA3C616BDE75500F0279B /* InfoPlist.strings */,
+				FBAEA3C916BDE75500F0279B /* main.m */,
+				FBAEA3CB16BDE75500F0279B /* KKBadgeViewSample-Prefix.pch */,
+				FBAEA3CF16BDE75500F0279B /* Default.png */,
+				FBAEA3D116BDE75500F0279B /* Default@2x.png */,
+				FBAEA3D316BDE75500F0279B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBAEA3B916BDE75500F0279B /* KKBadgeViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAEA3DD16BDE75500F0279B /* Build configuration list for PBXNativeTarget "KKBadgeViewSample" */;
+			buildPhases = (
+				FBAEA3B616BDE75500F0279B /* Sources */,
+				FBAEA3B716BDE75500F0279B /* Frameworks */,
+				FBAEA3B816BDE75500F0279B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKBadgeViewSample;
+			productName = KKBadgeViewSample;
+			productReference = FBAEA3BA16BDE75500F0279B /* KKBadgeViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBAEA3B216BDE75500F0279B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kemal Kocabiyik";
+			};
+			buildConfigurationList = FBAEA3B516BDE75500F0279B /* Build configuration list for PBXProject "KKBadgeViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBAEA3B116BDE75500F0279B;
+			productRefGroup = FBAEA3BB16BDE75500F0279B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBAEA3B916BDE75500F0279B /* KKBadgeViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBAEA3B816BDE75500F0279B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAEA3C816BDE75500F0279B /* InfoPlist.strings in Resources */,
+				FBAEA3D016BDE75500F0279B /* Default.png in Resources */,
+				FBAEA3D216BDE75500F0279B /* Default@2x.png in Resources */,
+				FBAEA3D416BDE75500F0279B /* Default-568h@2x.png in Resources */,
+				FBAEA3DA16BDE75500F0279B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBAEA3B616BDE75500F0279B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAEA3CA16BDE75500F0279B /* main.m in Sources */,
+				FBAEA3CE16BDE75500F0279B /* AppDelegate.m in Sources */,
+				FBAEA3D716BDE75500F0279B /* ViewController.m in Sources */,
+				FBAEA3E416BDE77400F0279B /* KKBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBAEA3C616BDE75500F0279B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBAEA3C716BDE75500F0279B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBAEA3D816BDE75500F0279B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBAEA3D916BDE75500F0279B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBAEA3DB16BDE75500F0279B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBAEA3DC16BDE75500F0279B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBAEA3DE16BDE75500F0279B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKBadgeViewSample/KKBadgeViewSample-Prefix.pch";
+				INFOPLIST_FILE = "KKBadgeViewSample/KKBadgeViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBAEA3DF16BDE75500F0279B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKBadgeViewSample/KKBadgeViewSample-Prefix.pch";
+				INFOPLIST_FILE = "KKBadgeViewSample/KKBadgeViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBAEA3B516BDE75500F0279B /* Build configuration list for PBXProject "KKBadgeViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAEA3DB16BDE75500F0279B /* Debug */,
+				FBAEA3DC16BDE75500F0279B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAEA3DD16BDE75500F0279B /* Build configuration list for PBXNativeTarget "KKBadgeViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAEA3DE16BDE75500F0279B /* Debug */,
+				FBAEA3DF16BDE75500F0279B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBAEA3B216BDE75500F0279B /* Project object */;
+}
